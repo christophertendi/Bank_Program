@@ -8,12 +8,12 @@ class Main {
 
         System.out.println(bank.getCustomer(0).getFirstName());
 
-        Account jasonAcc = bank.getCustomer(0).getAccount();
+        Account barbaraAcc = bank.getCustomer(0).getAccount();
 
-        jasonAcc.deposit(50000);
-        jasonAcc.withdraw(20000);
-        System.out.println(jasonAcc.getBalance());
-        System.out.println(jasonAcc.withdraw(100000000));
+        barbaraAcc.deposit(50000);
+        barbaraAcc.withdraw(20000);
+        System.out.println(barbaraAcc.getBalance());
+        System.out.println(barbaraAcc.withdraw(100000000));
 
     }
 }
